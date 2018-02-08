@@ -1,7 +1,7 @@
 /* MarketPlace */
 /* an application that gives the ability to purchase items and earn money, you can consider it a game if you want, for me it's a program I wrote just for practical purposes, and because I got bored */
 /* version 1.0 */
-/* features > 1) your balance decreases when based on the item's price. */
+/* features > 1) your balance decreases based on the item's price. */
 /* features > 2) you'll get an error if there is no suffisant funds */
 /* features > 3) you can see the full list of your virtual purchases */
 $(document).ready(function() {
