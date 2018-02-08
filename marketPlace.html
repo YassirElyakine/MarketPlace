@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>MarketPlace (version 1.0)</title>
+    <!-- bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- javascript.css file -->
+    <link rel="stylesheet" type="text/css" href="marketPlace.css">
+    </head>
+
+<body class="bg-light">
+    <!-- application -->
+    
+    <div class="app-container">
+        <h1 class="display-2 text-center text-dark">List of purchases</h1>
+        <div class="purchased-list text-center bg-dark text-white">
+            
+        </div>
+        <div class="Balance">
+            Balance :
+            <button type="button" class="btn btn-primary balance" disabled></button>$
+        </div>
+        <div class="items text-white">
+            <div id="item-1">Calculator <div class="details bg-primary text-center text-white">price: $50 <button type="button" class="btn btn-warning buy_1">Buy</button></div></div>
+            <div id="item-2">Iphone <div class="details bg-primary text-center text-white">price: $500 <button type="button" class="btn btn-warning buy_2">Buy</button></div></div>
+            <div id="item-3">Computer <div class="details bg-primary text-center text-white">price: $350 <button type="button" class="btn btn-warning buy_3">Buy</button></div></div>
+            <div id="item-4">Playstation4 <div class="details bg-primary text-center text-white">price: $650 <button type="button" class="btn btn-warning buy_4">Buy</button></div></div>
+        </div>
+        <h1 class="display-1 text-danger text-center errorMessages"></h1>
+    </div>
+    
+    <!-- application --->
+    <!-- jquery CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <!-- javascript.js file -->
+    <script src="marketPlace.js"></script>
+    </body>
+
+</html>

@@ -1,0 +1,46 @@
+body {
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.app-container {
+    margin: 200px auto;
+    padding: 15px;
+}
+.app-container .items {
+    display: flex;
+    margin: 200px auto;
+}
+.app-container .items div {
+    flex-basis: 50%;
+    text-align: center;
+    font-size: 25px;
+    transition: 100ms all linear;
+    cursor: pointer;
+    color: #4F4F4F;
+}
+.app-container .items div:hover {
+    color: #1F1F1F;
+}
+.app-container .Balance {
+    float: right;
+}
+.details {
+    padding: 25px;
+    display: none;
+    border-radius: 10%;
+}
+#item-1 .details {
+    border-right: 1px solid #fff;
+}
+#item-2 .details {
+    border-right: 1px solid #fff;
+}
+#item-3 .details {
+    border-right: 1px solid #fff;
+}
+.purchased-list {
+    padding: 15px;
+    overflow-y: scroll;
+    height: 85px;
+    margin-bottom: 10px;
+}
